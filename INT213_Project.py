@@ -8,7 +8,7 @@ from datetime import datetime
 import random
 
 
-connectiondb = mysql.connector.connect(host="localhost",user="root",passwd="ifirstdoZ27@", database="user")
+connectiondb = mysql.connector.connect(host="localhost",user="root",passwd="password", database="user")
 cursordb = connectiondb.cursor()
 
 def login():
