@@ -249,7 +249,6 @@ def book_cnf():
         etm.focus_set()  
         return
 
-    dob='27-07-2001'
     d_obj=datetime.strptime(dob,'%d-%m-%Y').date()
     usern = username_verification.get()
     
